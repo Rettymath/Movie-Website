@@ -83,4 +83,4 @@ function Modal({ show, setShow, movie, location }) {
   );
 }
 
-export default Modal;
+export default Modal;           

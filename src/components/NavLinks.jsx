@@ -5,7 +5,6 @@ import styles from './styles/navbar.module.css';
 
 function NavLinks() {
   const { pathname } = useLocation();
-
   return (
     <div className={styles.navlink_container}>
       <NavLink to='/' className={pathname === '/' ? styles.navbar_link_active : styles.navbar_link}>

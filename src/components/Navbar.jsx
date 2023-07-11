@@ -43,7 +43,7 @@ function Navbar() {
       <SearchBar
         header={'Movies'}
         placeholder={'Search Movie...'}
-        value={searchText}
+        value={searchText} 
         onChange={handleTextChange}
         handleSearch={handleSearch}
         onKeyUp={handleKeyUp}
